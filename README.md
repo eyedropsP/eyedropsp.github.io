@@ -4,7 +4,7 @@
 
 | パス | 内容 | 元 |
 |---|---|---|
-| `picorder/privacy/` | PicOrder のプライバシーポリシー（日英） | PicOrder リポジトリの `docs/privacy-policy.md` |
+| `foliot/privacy/` | Foliot のプライバシーポリシー（日英） | アプリ側リポジトリの `docs/privacy-policy.md` |
 
 `.nojekyll` を置いて Jekyll の処理を無効にしている。各ページは単体で完結した HTML。
 

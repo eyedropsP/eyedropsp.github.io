@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Foliot Support / サポート</title>
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #ffffff; --fg: #1c1c1e; --muted: #6b6b70;
+    --rule: #e0e0e3; --accent: #0b6bcb; --code-bg: #f2f2f5;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #16161a; --fg: #e8e8ea; --muted: #9b9ba1;
+      --rule: #2e2e34; --accent: #6cb0ff; --code-bg: #24242a;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0 auto; padding: 2.5rem 1.25rem 5rem; max-width: 44rem;
+    background: var(--bg); color: var(--fg);
+    font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Noto Sans JP", "Segoe UI", sans-serif;
+    line-height: 1.75; font-size: 17px; -webkit-text-size-adjust: 100%;
+  }
+  h1 { font-size: 1.7rem; line-height: 1.35; margin: 0 0 .4rem; }
+  h2 { font-size: 1.35rem; margin: 3rem 0 1rem; padding-top: 1.75rem; border-top: 1px solid var(--rule); }
+  h3 { font-size: 1.08rem; margin: 2rem 0 .5rem; }
+  p, ul { margin: .75rem 0; }
+  ul { padding-left: 1.4rem; }
+  li { margin: .4rem 0; }
+  a { color: var(--accent); }
+  .updated { color: var(--muted); font-size: .9rem; margin: 0 0 1.5rem; }
+  nav { font-size: .95rem; margin-bottom: 2rem; }
+  nav a { margin-right: 1rem; }
+  code {
+    background: var(--code-bg); padding: .12em .38em; border-radius: 4px;
+    font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+    font-size: .86em; word-break: break-all;
+  }
+  .contact {
+    border: 1px solid var(--rule); border-radius: 8px;
+    padding: 1rem 1.25rem; margin: 1.5rem 0;
+  }
+  footer { margin-top: 3.5rem; color: var(--muted); font-size: .88rem; }
+</style>
+</head>
+<body>
+
+<h1>Foliot Support / サポート</h1>
+<p class="updated">Last updated / 最終更新: 2026-09-10</p>
+<nav><a href="#english">English</a><a href="#japanese">日本語</a></nav>
+
+<h2 id="english">English</h2>
+
+<h3>Contact</h3>
+<div class="contact">
+  <p>Questions, bug reports, and feature requests are all welcome.</p>
+  <p><strong><a href="mailto:eyedropsp@gmail.com">eyedropsp@gmail.com</a></strong></p>
+  <p>Replies are usually sent within a few days. Writing in English or Japanese is fine.</p>
+</div>
+
+<h3>What Foliot does</h3>
+<p>Foliot puts your images in the order you choose, then plays them back or exports them — <strong>without renaming your files</strong>. Drop in a folder, drag the rows into the order you want, and that order is what you get.</p>
+
+<h3>Frequently asked questions</h3>
+
+<h4>Does Foliot rename or modify my original images?</h4>
+<p>No. Reordering inside Foliot never touches your files. Export always writes to a destination folder you choose, and Foliot refuses to run if the export would overwrite an original that has not been read yet.</p>
+
+<h4>Where are my playlists stored?</h4>
+<p>Inside the app's own sandbox container, on your Mac only:</p>
+<p><code>~/Library/Containers/com.eyedrops.Foliot/Data/Library/Application Support/Foliot/playlists.json</code></p>
+
+<h4>Why can't I export?</h4>
+<p>Exporting is a Foliot Pro feature. You can browse, reorder, and play back your images for free.</p>
+
+<h4>I bought Foliot Pro but it isn't unlocked</h4>
+<p>Choose <strong>Restore</strong> next to the purchase button. Purchases are tied to your Apple Account, so make sure you are signed in with the same account you bought with.</p>
+
+<h4>Some images cannot be exported</h4>
+<p>WebP images cannot be written back in their original format on macOS. Choose a different output format (JPEG, PNG, HEIC, or TIFF) for those files.</p>
+
+<h3>Privacy</h3>
+<p>Foliot collects no data at all. See the <a href="../privacy/">Privacy Policy</a>.</p>
+
+<h2 id="japanese" lang="ja">日本語</h2>
+<div lang="ja">
+
+<h3>お問い合わせ</h3>
+<div class="contact">
+  <p>ご質問・不具合のご報告・ご要望など、お気軽にどうぞ。</p>
+  <p><strong><a href="mailto:eyedropsp@gmail.com">eyedropsp@gmail.com</a></strong></p>
+  <p>数日以内にご返信します。日本語・英語どちらでも構いません。</p>
+</div>
+
+<h3>Foliot でできること</h3>
+<p>画像を好きな順番に並べ、その順で再生・書き出しします。<strong>ファイル名は変更しません。</strong>フォルダを放り込んで、行をドラッグして順番を決めれば、その順序がそのまま結果になります。</p>
+
+<h3>よくある質問</h3>
+
+<h4>元の画像がリネームされたり変更されたりしますか？</h4>
+<p>されません。Foliot 内での並べ替えはファイルに一切触れません。書き出しは必ず指定した出力先に対して行われ、まだ読み込んでいない元画像を上書きしてしまう状況では書き出し自体を中止します。</p>
+
+<h4>プレイリストはどこに保存されますか？</h4>
+<p>アプリのサンドボックスコンテナ内、お使いの Mac の中だけです。</p>
+<p><code>~/Library/Containers/com.eyedrops.Foliot/Data/Library/Application Support/Foliot/playlists.json</code></p>
+
+<h4>書き出しができません</h4>
+<p>書き出しは Foliot Pro の機能です。閲覧・並べ替え・再生は無料でお使いいただけます。</p>
+
+<h4>Foliot Pro を購入したのに解除されません</h4>
+<p>購入ボタンの隣にある「購入を復元」をお試しください。購入は Apple アカウントに紐づくため、購入時と同じアカウントでサインインしているかご確認ください。</p>
+
+<h4>一部の画像が書き出せません</h4>
+<p>WebP 形式は macOS では元の形式のまま書き戻せません。該当するファイルについては、別の出力形式（JPEG・PNG・HEIC・TIFF）をお選びください。</p>
+
+<h3>プライバシー</h3>
+<p>Foliot はデータを一切収集しません。<a href="../privacy/">プライバシーポリシー</a>をご覧ください。</p>
+
+</div>
+
+<footer>Foliot — a Mac app for ordering, resizing, and playing back your images.</footer>
+
+</body>
+</html>

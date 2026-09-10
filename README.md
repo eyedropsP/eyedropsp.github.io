@@ -5,6 +5,7 @@
 | パス | 内容 | 元 |
 |---|---|---|
 | `foliot/privacy/` | Foliot のプライバシーポリシー（日英） | アプリ側リポジトリの `docs/privacy-policy.md` |
+| `foliot/support/` | Foliot のサポートページ（日英） | アプリ側リポジトリの `docs/support/index.html` |
 
 `.nojekyll` を置いて Jekyll の処理を無効にしている。各ページは単体で完結した HTML。
 
